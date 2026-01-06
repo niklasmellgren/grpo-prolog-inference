@@ -1,9 +1,3 @@
-This repository contains the code for Niklas Mellgren's 2025 master's thesis in Data Science – ICT Systems at the University of Southern Denmark (SDU).
-
-### **Thesis title**  
-**Reinforcement Fine-Tuning Large Language Models to Use Prolog as a Tool**  
-*Grade: 12*
-
 ### **Abstract**
 Using Group Relative Policy Optimization (GRPO), this project fine-tunes Qwen2.5-3B-Instruct on a merged and cleaned version of `openai/gsm8k` and `Thomas-X-Yang/gsm8k-prolog`, resulting in the `niklasm222/gsm8k-prolog-prover` dataset.
 
