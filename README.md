@@ -14,13 +14,13 @@ Three main experimental axes were explored:
 
 ### Key findings
 - Joint tuning of prompt, reward, and inference shapes the structure and quality of generated Prolog programs
-- **Highest accuracy** on GSM8K was achieved using external Prolog verification in a best-of-N multiple-try setting
-- **Best zero-shot generalization** (MMLU-STEM/Pro) came from agentic inference, where the model engages in self-repair using Prolog as an interactive tool
+- Highest accuracy on GSM8K was achieved using external Prolog verification in a best-of-N multiple-try setting
+- Best zero-shot generalization (MMLU-STEM/Pro) came from agentic inference, where the model engages in self-repair using Prolog as an interactive tool
 
 
 ### Why this matters
 This project moves us closer to transparent and testable AI reasoning by:
 
-- Converting instructional LLMs into reasoning models through reinforcement learning, using GRPO to enforce **explicit reasoning** in `<reasoning>` blocks and generate **symbolic Prolog programs** inside structured `<answer>` blocks
-- Leveraging **SWI-Prolog** not only as a static verifier, but also as an interactive tool, invoked via function-calling — exploring how lightweight **AI agents** can reason, self-repair, and validate their own output in a dialogue loop
-- Reinforcing behavior that leads to reasoning and answers that are **verifiable, falsifiable, and logically grounded**
+- Converting instructional LLMs into reasoning models through reinforcement learning, using GRPO to enforce explicit reasoning in `<reasoning>` blocks and generate symbolic Prolog programs inside structured `<answer>` blocks
+- Leveraging **SWI-Prolog** not only as a static verifier, but also as an interactive tool, invoked via function-calling — exploring how lightweight AI agents can reason, self-repair, and validate their own output in a dialogue loop
+- Reinforcing behavior that leads to reasoning and answers that are verifiable, falsifiable, and logically grounded
