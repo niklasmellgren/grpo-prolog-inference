@@ -1,8 +1,8 @@
 This repository holds the code for the paper [Training Language Models to Use Prolog as a Tool](https://arxiv.org/abs/2512.07407).
 
-The cleaned GSMK8k Prolog dataset is available on [Huggingface](https://huggingface.co/datasets/niklasm222/gsm8k-prolog-prover).
+The cleaned gsm8k-prolog-prover dataset is available on [Huggingface](https://huggingface.co/datasets/niklasm222/gsm8k-prolog-prover).
 
-If you use the code or the dataset, please cite via
+If you use the code or the dataset, please cite via:
 
 ```bibtex
 @inproceedings{mellgren2026training,
